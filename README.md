@@ -20,12 +20,12 @@ The project uses the following technologies:
 
  Technology used & Purpose
 
- Python -- Main programming language 
- Django -- Backend web framework 
- SQLite -- Database 
- HTML -- Website structure 
- CSS  -- Website styling 
- Bootstrap -- Responsive design and frontend components 
+ | Python -- Main programming language |
+ | Django -- Backend web framework 
+ | SQLite -- Database 
+ | HTML -- Website structure 
+ | CSS  -- Website styling 
+ | Bootstrap -- Responsive design and frontend components 
 
 ## 3. Main Features
 
