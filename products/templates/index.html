@@ -2,12 +2,19 @@
 
 
 {% block content %}
+<style>
+    .product-image {
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+</style>
 <h1>Products</h1>
 <div class="row">
     {% for product in products %}
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-            <img src="{{product.image_url}}" class="card-img-top" alt="...">
+    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+        <div class="card h-100">
+            <img src="{{product.image_url}}" class="card-img-top img-fluid product-image" alt="...">
             <div class="card-body">
                 <h5 class="card-title">{{product.name}}</h5>
                 <p class="card-text">{{product.price}}</p>

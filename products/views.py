@@ -23,3 +23,7 @@ def new(request):
     return HttpResponse('New products')
 
 
+def home(request):
+    return render(request,'home.html')
+
+
