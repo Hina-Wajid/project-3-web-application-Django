@@ -17,3 +17,7 @@ class Offer(models.Model):
     discount =models.FloatField()
 
 
+class Subscribe(models.Model):
+    subscripername=models.CharField(max_length=100)
+    email=  email = models.EmailField()
+
