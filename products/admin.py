@@ -15,7 +15,7 @@ class ProductAdmin(admin.ModelAdmin):
 admin.site.register(Product,ProductAdmin)
 admin.site.register(Offer,OfferAdmin)
 
-#admin has object site which has this register method , we pass Product as arg.
+#admin has object named site which has this register method , we pass Product as arg.
 #this will be added to our admin panel. this provide all the common functionality needing for admin
 
 

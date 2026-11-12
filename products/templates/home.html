@@ -1,5 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Welcome to home page</h1>
+<section class="p-5 mb-4 bg-light rounded-3">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1>Discover something you'll love</h1>
+            <p class="lead">
+                Browse our collection and find the right product for you.
+            </p>
+            <a href="{% url 'products' %}" class="btn btn-primary btn-lg">
+                Shop now
+            </a>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0">
+            <img src="https://placehold.co/800x500?text=Your+Banner+Image" alt="Placeholder for your shop banner"
+                class="img-fluid rounded">
+        </div>
+    </div>
+</section>
 {% endblock %}
